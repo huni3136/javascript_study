@@ -1,0 +1,70 @@
+/* 디자인은 심미적으로 자유롭게! */
+main {
+    background-image: url(../images/b4d0f8b195e28d4cd1d6925020a4309a.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 250px auto;
+    text-align: center;
+    border: 0;
+    border-radius: 10px;
+    width: 700px;
+    height: 450px;
+}
+main h1 {
+    font-size: 3.15rem;
+    font-weight: 700;
+    padding: 30px;
+    margin-left: 20px;
+}
+main .health {
+    padding: 20px;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+main ul {
+}
+main ul li {
+    padding: 10px;
+    width: 500px;
+    display: flex;    
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+main ul li #height {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0px;
+    margin: 0 10px 0 20px;
+}
+main ul li #weight {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px; 
+    border: 0px;
+    margin: 0 40px 0 20px;
+}
+main ul li #goals {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0px;
+    margin: 0 30px 0 20px;  
+}
+main p {
+    padding-top: 30px;
+}
+main p #result {
+    border: 1px; border-radius: 10px;
+    width: 300px;
+    line-height: 50px;
+    background-color: yellowgreen;
+    color: #fff;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+main p #result:hover {
+    color: black;
+}
