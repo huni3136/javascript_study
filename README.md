@@ -198,3 +198,17 @@
 * 비교연산자 : <, >, ==, <=, >= !=
 -----
 * `NAN` : Not a Number(1+undifined+10)
+## 자바스크립트가 인식하는 참, 거짓 종류
+* false
+1. false
+2. null
+3. undefined
+4. NaN (not a number)
+5. 0
+6. "" //빈 문자열
+* true
+1. true
+2. false가 아닌 모든 값들 
+3. 0보다 큰 숫자 
+4. [] //빈 배열
+5. {} //빈 객체
