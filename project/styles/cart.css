@@ -34,7 +34,6 @@ main .cart_wrap .item_wrap {
     
 }
 main .cart_wrap .item_wrap .item {
-    
     display: flex;
     align-items: center;
     justify-content: space-between;
