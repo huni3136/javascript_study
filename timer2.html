@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>timer2 | js</title>
+    <script src="./script/timer2.js" defer></script>
+    <style>
+        .wrap {
+            width: 500px; height: 500px; overflow: hidden;
+            border: 5px solid black;
+            margin: 30px auto;
+        }
+        .wrap .change_color {
+            display: flex;
+            width: max-content;
+            position: relative;
+        }
+        .wrap .change_color .change {
+            width: 500px; height: 500px;
+            text-align: center; font-size: 5rem; padding-top: 150px;
+            position: absolute; left: 0; top: 0;
+/*             opacity: 0; transition: opacity 0.3s; */
+        }
+        .wrap .change_color .change1 {background: aqua; opacity: 1;}
+        .wrap .change_color .change2 {background: lawngreen; }
+        .wrap .change_color .change3 {background: red;}
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="change_color">
+            <div class="change change1">1</div>
+            <div class="change change2">2</div>
+            <div class="change change3">3</div>
+        </div>
+    </div>
+</body>
+</html>
